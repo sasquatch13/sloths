@@ -1,0 +1,55 @@
+body {
+    font-family: 'roboto', 'Times New Roman', Times, serif;
+    color: rgb(194, 179, 179);
+    
+
+}
+footer,
+header,
+.info,
+.testimonial,
+.call {
+    padding: 0px 50px;
+}
+
+
+footer,
+header {
+    background-color: #1f2937;
+}
+
+.upper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-left > button {
+    display: flex;
+    justify-content: center;
+    padding: 5px 10px;
+
+  
+    
+
+}
+
+.lower {
+    display: flex;
+}
+
+.logo {
+    width: 300Px;
+    height: auto;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 25Px;
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
