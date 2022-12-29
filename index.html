@@ -7,46 +7,76 @@
     <title>Sloths are cool.</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-        <div class="upper">
-         <div class="sloth">Sloths</div>
-         <div class="end-head">link one</div>
-         <div class="end-head">link two</div>
-         <div class="end-head">link three</div>
-        </div>
-        <div class="lower">
-            <div class="head-left">
-            <h1>Sloths are cool.</h1>
-            <p>Sloths are super slow and they like being upside down.</p>
-            <button>Sign up!</button>
+        <div class="nav">
+            <div class="left">
+                <p id="logo">Sloths</p>
             </div>
-            <div class="head-right"><img class="logo" src="images/sloth-logo.png" alt="image here"></div>
+            <div class="right">
+                <ul>
+                    <li>link one</li>
+                    <li>link two</li>
+                    <li>link three</li>
+                </ul>
+            </div> 
+        </div>
+        <div class="welcome">
+            <div class="left">
+                <h1 class="hero">Sloths are cool.</h1>
+                <p class="secondary">Sloths are super slow and they like being upside down.</p>
+                <button class="secondary">Sign up!</button>
+            </div>
+            <div class="image"><img class="logo" src="images/sloth-logo.png" alt="image here"></div>
         </div>
     </header>
-    <div class="info">
-       <h2>Some random info.</h2>
-       <div class="info-img">
-        <div><img src="images/family.jpeg" alt="pic 1"> <p>Sloths are family oriented and live their children.</p></div>
-        <div><img src="images/cute.jpeg" alt="pic 2"> <p>Sloths take good care of themselves and care about their appearance.</p></div>
-        <div><img src="images/sleep.jpeg" alt="pic 3"> <p>Sloths work long hours so they enjoy mid-day naps.</p></div>
-        <div><img src="images/crack.jpeg" alt="pic 3"> <p>Consider donating to sloths trying to get clean.</p></div>
+
+    <main>
+       <h2>Some sloth info.</h2>
+       <div class="card-container">
+
+            <div class="card">
+                <img src="images/family.jpeg" alt="pic 1">
+                <p>Sloths are family oriented and love their children.</p>
+            </div>
+
+            <div class="card">
+                <img src="images/cute.jpeg" alt="pic 2"> 
+                <p>Sloths take good care of themselves and care about their appearance.</p>
+            </div>
+
+            <div class="card">
+                <img src="images/sleep.jpeg" alt="pic 3"> 
+                <p>Sloths work long hours so they enjoy mid-day naps.</p>
+            </div>
+        
+            <div class="card">
+                <img src="images/crack.jpeg" alt="pic 4"> 
+                <p>Consider donating to sloths trying to get clean from addictive substances.</p>
+            </div>
        </div>
+    </main>
+    
+    <div class="quote">
+            <em>Sloths are a major contributor to the world economy and the prosperity of all nations.</em>
+        <p class="person">-King Slothington III</p>
     </div>
-    <div class="testimonial">
-        <p>
-            Sloths are a major contributor to the world economy and the prosperity of all nations. 
-        </p>
-        <p>-King Slothington III</p>
-    </div>
-    <div class="call">
-        <p>Call to action its time!</p>
-        <p>Sign up for the sloth fund!</p>
-        <button>Sign Up</button>
+
+    <div class="sign-up">
+        <div class="container">
+            <div class="left">
+                <strong>Call to action its time!</strong>
+                <p class="secondary">Sign up for the sloth fund!</p>
+            </div>
+            <div class="right">
+                <button class="secondary">Sign Up</button>
+            </div>
+        </div>
     </div>
 
     <footer>
-        <div>Copyright © The Odin Project 2021</div>
+        Copyright &copy; The Odin Project 2021
     </footer>
 </body>
 </html>
